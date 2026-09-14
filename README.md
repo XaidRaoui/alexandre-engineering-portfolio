@@ -117,3 +117,15 @@ V4 workbook: the project links to the cleaned engineering workbook with Dashboar
 - Bitcoin ML project rewritten from the supplied 35-page audited report.
 - Bitcoin project now uses the supplied neural-network schematic as its sole presentation image, while the text explicitly states that the final audited model is a logistic-regression + histogram-gradient-boosting ensemble.
 - Full Bitcoin ML report added as a direct PDF link.
+
+## V10 — multilingual interface
+
+The portfolio now includes an EN / FR / DE selector in the sticky header.
+
+- English remains the default language for international recruiting.
+- On a first visit, French- and German-language browsers are detected automatically.
+- The selected language is persisted in `localStorage` under `portfolio-lang`.
+- Navigation, homepage, About, Skills, CV, flagship project pages and engineering-study pages are localized.
+- Technical equations, tools, file names and report PDFs remain unchanged.
+
+The language switch is client-side and does not require an external translation service or API.
