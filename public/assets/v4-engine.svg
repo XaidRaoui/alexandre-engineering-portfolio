@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+<rect width="1200" height="750" fill="#0b0f13"/>
+<g stroke="#253342" stroke-width="1" opacity=".75"><path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200M0 600H1200M100 0V750M300 0V750M500 0V750M700 0V750M900 0V750M1100 0V750"/></g>
+<g transform="translate(600 390)" fill="none" stroke="#d8e1e8" stroke-width="12">
+<path d="M0 0 L-250 -225 M0 0 L-250 225 M0 0 L250 -225 M0 0 L250 225"/>
+<circle r="70" stroke="#7ec8f8"/>
+<circle r="18" fill="#7ec8f8" stroke="none"/>
+<path d="M-250 -225 l-55 -90 h110z M-250 225 l-55 90 h110z M250 -225 l-55 -90 h110z M250 225 l-55 90 h110z" fill="#151c24"/>
+</g>
+<text x="62" y="72" fill="#7ec8f8" font-family="monospace" font-size="24">135° V4 · KINEMATICS / BALANCING / FEM</text>
+<text x="60" y="700" fill="#8796a5" font-family="monospace" font-size="19">mechanism → loads → optimization → structural verification</text>
+</svg>

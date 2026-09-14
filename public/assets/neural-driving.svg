@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#0b1015"/>
+  <g stroke="#29333e" stroke-width="2" fill="none">
+    <path d="M90 170 C220 70 480 90 590 200 C700 310 680 520 520 610 C360 700 140 610 90 470 C40 330 40 220 90 170Z"/>
+    <path d="M180 230 C290 150 445 170 505 250 C565 330 535 465 430 520 C325 575 195 515 170 420 C145 325 145 270 180 230Z"/>
+  </g>
+  <g stroke="#7ec8f8" stroke-width="3" opacity=".9">
+    <line x1="280" y1="295" x2="165" y2="205"/><line x1="280" y1="295" x2="185" y2="245"/><line x1="280" y1="295" x2="205" y2="285"/><line x1="280" y1="295" x2="215" y2="325"/><line x1="280" y1="295" x2="220" y2="370"/><line x1="280" y1="295" x2="280" y2="405"/><line x1="280" y1="295" x2="345" y2="380"/><line x1="280" y1="295" x2="380" y2="345"/><line x1="280" y1="295" x2="410" y2="300"/>
+  </g>
+  <rect x="263" y="280" width="34" height="22" rx="4" fill="#f4d35e" transform="rotate(15 280 291)"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="700" y="120" fill="#7ec8f8" font-size="24" letter-spacing="4">NEURAL DRIVING</text>
+    <text x="700" y="170" fill="#f3f5f7" font-size="38" font-weight="700">10 → 12 → 8 → 3</text>
+    <text x="700" y="210" fill="#9aa4af" font-size="20">263 optimized parameters · neuroevolution</text>
+  </g>
+  <g fill="#7ec8f8" stroke="#17212a" stroke-width="2">
+    <circle cx="735" cy="300" r="9"/><circle cx="735" cy="340" r="9"/><circle cx="735" cy="380" r="9"/><circle cx="735" cy="420" r="9"/><circle cx="735" cy="460" r="9"/>
+    <circle cx="850" cy="285" r="9"/><circle cx="850" cy="330" r="9"/><circle cx="850" cy="375" r="9"/><circle cx="850" cy="420" r="9"/><circle cx="850" cy="465" r="9"/>
+    <circle cx="965" cy="310" r="9"/><circle cx="965" cy="365" r="9"/><circle cx="965" cy="420" r="9"/>
+    <circle cx="1080" cy="330" r="10"/><circle cx="1080" cy="385" r="10"/><circle cx="1080" cy="440" r="10"/>
+  </g>
+  <g stroke="#4d6170" stroke-width="1" opacity=".8">
+    <path d="M744 300L841 285M744 300L841 330M744 340L841 330M744 340L841 375M744 380L841 375M744 380L841 420M744 420L841 420M744 420L841 465M744 460L841 465"/>
+    <path d="M859 285L956 310M859 330L956 310M859 330L956 365M859 375L956 365M859 375L956 420M859 420L956 420M859 465L956 420"/>
+    <path d="M974 310L1070 330M974 310L1070 385M974 365L1070 330M974 365L1070 385M974 365L1070 440M974 420L1070 385M974 420L1070 440"/>
+  </g>
+  <text x="700" y="570" fill="#9aa4af" font-family="Arial,Helvetica,sans-serif" font-size="20">Sensors → explicit MLP → steering / throttle / brake</text>
+  <text x="700" y="610" fill="#9aa4af" font-family="Arial,Helvetica,sans-serif" font-size="20">Selection · crossover · Gaussian mutation · elitism</text>
+</svg>

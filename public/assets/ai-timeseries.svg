@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+<rect width="1200" height="750" fill="#090d11"/>
+<g stroke="#26323e" stroke-width="1"><path d="M90 100V650M90 650H1140"/><path d="M90 210H1140M90 320H1140M90 430H1140M90 540H1140"/></g>
+<polyline points="90,540 150,510 210,530 270,435 330,470 390,390 450,410 510,300 570,340 630,260 690,330 750,240 810,285 870,170 930,210 990,155 1050,205 1120,130" fill="none" stroke="#d8e1e8" stroke-width="5"/>
+<polyline points="90,570 150,520 210,500 270,465 330,430 390,410 450,370 510,350 570,310 630,295 690,270 750,250 810,235 870,210 930,190 990,175 1050,165 1120,150" fill="none" stroke="#7ec8f8" stroke-width="5" stroke-dasharray="13 10"/>
+<text x="62" y="72" fill="#7ec8f8" font-family="monospace" font-size="24">MULTIVARIATE TIME SERIES · VALIDATION · BACKTESTING</text>
+<text x="760" y="620" fill="#9aabb8" font-family="monospace" font-size="18">prediction ≠ profitable strategy</text>
+</svg>

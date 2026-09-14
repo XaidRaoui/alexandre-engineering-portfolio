@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+<rect width="1200" height="750" fill="#0a0d10"/>
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#13222f"/><stop offset="1" stop-color="#0b1118"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="750" fill="url(#g)"/>
+<g fill="none" stroke="#6cbce9" opacity=".72" stroke-width="3">
+<path d="M30 290 C250 210 420 220 590 315 C800 430 1000 330 1180 255"/>
+<path d="M20 330 C250 270 420 275 590 340 C780 415 1000 380 1190 315"/>
+<path d="M20 370 C240 335 420 330 600 365 C790 400 1000 420 1180 390"/>
+<path d="M20 410 C250 400 420 390 600 392 C790 390 1000 450 1190 470"/>
+</g>
+<path d="M335 370 C470 310 620 315 780 370 C630 388 500 410 335 370Z" fill="#dfe6eb"/>
+<path d="M780 370 C905 310 990 295 1080 305 C980 355 900 385 780 370Z" fill="#94a9b8" opacity=".8"/>
+<text x="62" y="72" fill="#7ec8f8" font-family="monospace" font-size="24">EXTERNAL AERODYNAMICS · RANS · k–ω SST</text>
+<text x="60" y="700" fill="#91a1af" font-family="monospace" font-size="19">NACA 0012 → Formula 1 → delta-wing aircraft</text>
+</svg>
