@@ -87,8 +87,7 @@ export const projects: Project[] = [
       { title: 'Engineering challenge', body: ['At low liquid fraction the qualitative gas structure can look correct even when the pressure loss is wrong. This occurs because the gas structure spans many cells while the liquid film controlling wall shear may be of order one cell or less.', 'That distinction leads directly to the proposed extension: keep the hybrid gas description, but add an unresolved liquid-film treatment instead of attempting prohibitive wall refinement everywhere.'] }
     ],
     report: '/docs/master-thesis.pdf',
-    reportLabel: 'Open Master Thesis PDF',
-    video: 'https://youtu.be/sQz_qwbN-Gw'
+    reportLabel: 'Open Master Thesis PDF'
   },
   {
     slug: 'axial-compressor-cfd',
@@ -210,7 +209,8 @@ export const projects: Project[] = [
       { title: 'NACA 0012', body: ['The airfoil is the controlled reference case. It makes angle of attack, pressure loading, lift, drag, boundary-layer development and separation interpretable before complex 3D geometry is introduced.', 'The screenshot shows the accelerated region and separated wake structure rather than only a scalar lift coefficient.'] },
       { title: 'Formula 1', body: ['The Formula 1 case adds strong aerodynamic-device interaction. Front wing, wheels, floor, diffuser and rear structures alter one another’s inflow, so the force balance must be interpreted together with the wake.', 'The primary engineering trade-off is not maximum downforce alone, but useful downforce relative to drag and flow robustness.'] },
       { title: 'Delta-wing aircraft', body: ['The aircraft case is used to study three-dimensional vortex-dominated lift at moderate-to-high angle of attack. The streamline view is useful precisely because it exposes structures that cannot be understood from Cl and Cd alone.'] }
-    ]
+    ],
+    video: 'https://youtu.be/sQz_qwbN-Gw'
   },
   {
     slug: 'market-time-series-ml',
