@@ -22,6 +22,7 @@ export type Project = {
   sections: ProjectSection[]
   report?: string
   reportLabel?: string
+  video?: string
   imageFit?: 'cover' | 'contain'
 }
 
@@ -86,7 +87,8 @@ export const projects: Project[] = [
       { title: 'Engineering challenge', body: ['At low liquid fraction the qualitative gas structure can look correct even when the pressure loss is wrong. This occurs because the gas structure spans many cells while the liquid film controlling wall shear may be of order one cell or less.', 'That distinction leads directly to the proposed extension: keep the hybrid gas description, but add an unresolved liquid-film treatment instead of attempting prohibitive wall refinement everywhere.'] }
     ],
     report: '/docs/master-thesis.pdf',
-    reportLabel: 'Open Master Thesis PDF'
+    reportLabel: 'Open Master Thesis PDF',
+    video: 'https://youtu.be/sQz_qwbN-Gw'
   },
   {
     slug: 'axial-compressor-cfd',

@@ -46,6 +46,7 @@ export const ui = {
     project: {
       back: '← All projects',
       report: 'Open project report',
+      video: 'Watch project video',
       visualConcept: 'Project presentation visual · conceptual ML schematic',
       visualActual: 'Project visualization · actual simulation output where available',
       figuresEyebrow: 'Selected figures',
@@ -152,6 +153,7 @@ export const ui = {
     project: {
       back: '← Tous les projets',
       report: 'Ouvrir le rapport du projet',
+      video: 'Voir la vidéo du projet',
       visualConcept: 'Visuel de présentation · schéma conceptuel ML',
       visualActual: 'Visualisation du projet · résultat de simulation réel lorsque disponible',
       figuresEyebrow: 'Figures sélectionnées',
@@ -258,6 +260,7 @@ export const ui = {
     project: {
       back: '← Alle Projekte',
       report: 'Projektbericht öffnen',
+      video: 'Projektvideo ansehen',
       visualConcept: 'Projektvisualisierung · konzeptionelles ML-Schema',
       visualActual: 'Projektvisualisierung · tatsächlicher Simulationsergebnis, sofern verfügbar',
       figuresEyebrow: 'Ausgewählte Abbildungen',

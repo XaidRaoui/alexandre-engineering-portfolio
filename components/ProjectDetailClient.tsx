@@ -27,7 +27,10 @@ export function ProjectDetailClient({ project }: { project: Project }) {
         <div className="shell">
           <div className="mb-10 flex flex-wrap items-center justify-between gap-4">
             <Link href="/#projects" className="font-mono text-xs uppercase tracking-[.13em] text-zinc-500 transition hover:text-zinc-200">{t.back}</Link>
-            {p.report && <a href={p.report} target="_blank" rel="noreferrer" className="border border-sky-300/40 bg-sky-300/10 px-4 py-2 font-mono text-[11px] uppercase tracking-[.12em] text-sky-100 transition hover:bg-sky-300/15">{p.reportLabel ?? t.report} ↗</a>}
+            <div className="flex flex-wrap gap-2">
+              {p.video && <a href={p.video} target="_blank" rel="noreferrer" className="border border-zinc-600 bg-white/[0.03] px-4 py-2 font-mono text-[11px] uppercase tracking-[.12em] text-zinc-200 transition hover:border-zinc-400 hover:bg-white/[0.06]">▶ {t.video} ↗</a>}
+              {p.report && <a href={p.report} target="_blank" rel="noreferrer" className="border border-sky-300/40 bg-sky-300/10 px-4 py-2 font-mono text-[11px] uppercase tracking-[.12em] text-sky-100 transition hover:bg-sky-300/15">{p.reportLabel ?? t.report} ↗</a>}
+            </div>
           </div>
           <p className="eyebrow">{p.discipline}</p>
           <h1 className="mt-4 max-w-5xl text-5xl font-semibold tracking-[-.055em] md:text-7xl md:leading-[.98]">{p.title}</h1>
@@ -84,7 +87,7 @@ export function ProjectDetailClient({ project }: { project: Project }) {
 
         <div className="mt-8 grid gap-4 border-t rule pt-8 sm:grid-cols-[1fr_auto] sm:items-center">
           <div><p className="text-sm text-zinc-500">{t.fullPrompt}</p><p className="mt-1 text-sm text-zinc-300">{t.fullBody}</p></div>
-          <div className="flex flex-wrap gap-3"><Link href="/#projects" className="border rule px-5 py-3 text-sm">{t.back}</Link>{p.report && <a href={p.report} className="bg-zinc-100 px-5 py-3 text-sm font-medium text-black" target="_blank" rel="noreferrer">{p.reportLabel ?? t.report} ↗</a>}</div>
+          <div className="flex flex-wrap gap-3"><Link href="/#projects" className="border rule px-5 py-3 text-sm">{t.back}</Link>{p.video && <a href={p.video} className="border rule px-5 py-3 text-sm" target="_blank" rel="noreferrer">▶ {t.video} ↗</a>}{p.report && <a href={p.report} className="bg-zinc-100 px-5 py-3 text-sm font-medium text-black" target="_blank" rel="noreferrer">{p.reportLabel ?? t.report} ↗</a>}</div>
         </div>
       </div>
     </main>
