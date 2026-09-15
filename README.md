@@ -129,3 +129,12 @@ The portfolio now includes an EN / FR / DE selector in the sticky header.
 - Technical equations, tools, file names and report PDFs remain unchanged.
 
 The language switch is client-side and does not require an external translation service or API.
+
+## V11 — improved axial-compressor result gallery
+
+The axial-compressor case-study gallery now uses two direct post-processing results instead of PDF-page screenshots:
+
+- `compressor-wake-mixing.png` — circumferential wake transport / mixing profiles;
+- `compressor-flow-evolution.png` — absolute and relative flow-angle evolution through the coupled stage.
+
+The captions are available in English, French and German.

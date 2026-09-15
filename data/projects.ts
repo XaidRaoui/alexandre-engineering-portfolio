@@ -97,8 +97,8 @@ export const projects: Project[] = [
     hero: '/assets/compressor-coupled-stage.png',
     gallery: [
       { src: '/assets/compressor-coupled-stage.png', title: 'Coupled rotor–stator stage', caption: 'Periodic thin-annulus rotor–stator visualization coloured by velocity magnitude.' },
-      { src: '/assets/compressor-triangles.png', title: 'Velocity triangles', caption: 'Absolute, blade and relative velocities used to construct the design incidence and reconstruct rotor-exit flow.' },
-      { src: '/assets/compressor-annulus.png', title: 'Full-annulus reconstruction', caption: 'Periodic-sector result reconstructed around the annulus for communication of the stage flow.' }
+      { src: '/assets/compressor-wake-mixing.png', title: 'Wake transport & mixing', caption: 'Circumferential velocity-magnitude profiles reveal the strongly non-uniform rotor wake entering the stator and its progressive mixing downstream.' },
+      { src: '/assets/compressor-flow-evolution.png', title: 'Rotor–stator flow evolution', caption: 'Mass-flux-weighted absolute and relative flow angles through the coupled stage highlight rotor turning and stator straightening.' }
     ],
     metrics: [
       { value: '60 m/s', label: 'design axial inlet velocity' },

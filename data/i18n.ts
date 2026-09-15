@@ -383,8 +383,8 @@ const frProjects: Record<string, ProjectText> = {
     metrics: [{label:'vitesse axiale d’entrée au point de calcul'},{label:'vitesse de pale au rayon moyen'},{label:'cellules du maillage de référence couplé'},{label:'hausse de pression statique de l’étage couplé'}],
     gallery: [
       {title:'Étage rotor–stator couplé',caption:'Visualisation du secteur annulaire périodique rotor–stator colorée par la norme de la vitesse.'},
-      {title:'Triangles de vitesses',caption:'Vitesses absolue, de pale et relative utilisées pour construire l’incidence de calcul et reconstruire l’écoulement en sortie rotor.'},
-      {title:'Reconstruction annulaire complète',caption:'Résultat du secteur périodique reconstruit autour de l’anneau pour communiquer l’écoulement de l’étage.'}
+      {title:'Transport du sillage et mélange',caption:'Les profils circonférentiels de norme de vitesse montrent le sillage rotorique fortement non uniforme à l’entrée du stator, puis son mélange progressif en aval.'},
+      {title:'Évolution de l’écoulement rotor–stator',caption:'L’évolution pondérée par le flux massique des angles absolus et relatifs met en évidence la déviation créée par le rotor puis le redressement par le stator.'}
     ],
     context: 'Modèle volontairement réduit d’un étage de compresseur. Le projet démarre avec des cascades rotor et stator transparentes en passage inter-aubes, puis les étend vers un domaine annulaire mince périodique couplé en MRF / frozen rotor stationnaire. L’objectif est de relier directement les équations classiques de turbomachines aux champs CFD plutôt que de cacher la physique dans un grand modèle boîte noire.',
     equationLabel: 'Équation d’Euler des turbomachines. Elle sert ici de relation de cohérence issue du triangle de vitesses, et non de revendication de performance industrielle complète du compresseur.',
@@ -519,8 +519,8 @@ const deProjects: Record<string, ProjectText> = {
     metrics: [{label:'axiale Eintrittsgeschwindigkeit am Auslegungspunkt'},{label:'Schaufelgeschwindigkeit am mittleren Radius'},{label:'Zellen im gekoppelten Referenznetz'},{label:'statischer Druckanstieg der gekoppelten Stufe'}],
     gallery: [
       {title:'Gekoppelte Rotor–Stator-Stufe',caption:'Periodische Dünnring-Rotor–Stator-Visualisierung, eingefärbt mit dem Geschwindigkeitsbetrag.'},
-      {title:'Geschwindigkeitsdreiecke',caption:'Absolute, Schaufel- und Relativgeschwindigkeiten zur Konstruktion der Auslegungsinzidenz und Rekonstruktion der Rotoraustrittsströmung.'},
-      {title:'Vollständige Ringrekonstruktion',caption:'Periodischer Sektor um den Ring rekonstruiert, um die Strömung der Stufe anschaulich darzustellen.'}
+      {title:'Nachlauftransport und Durchmischung',caption:'Umfangsprofile des Geschwindigkeitsbetrags zeigen den stark inhomogenen Rotornachlauf am Statoreintritt und seine fortschreitende Durchmischung stromab.'},
+      {title:'Entwicklung der Rotor–Stator-Strömung',caption:'Die massenstromgewichtete Entwicklung der absoluten und relativen Strömungswinkel zeigt die Rotorumlenkung und die anschließende Geradstellung durch den Stator.'}
     ],
     context: 'Bewusst reduziertes Modell einer Verdichterstufe. Das Projekt beginnt mit transparenten Rotor- und Stator-Schaufelgittern im Blade-to-Blade-Modell und erweitert diese anschließend auf eine gekoppelte periodische Dünnringdomäne mit stationärem MRF / Frozen Rotor. Ziel ist, klassische Turbomaschinengleichungen direkt mit dem CFD-Feld zu verknüpfen, statt die Physik in einem großen Black-Box-Modell zu verstecken.',
     equationLabel: 'Eulersche Turbomaschinengleichung. Sie wird hier als Konsistenzbeziehung aus dem Geschwindigkeitsdreieck verwendet, nicht als Aussage über eine vollständig industrielle Verdichterperformance.',
